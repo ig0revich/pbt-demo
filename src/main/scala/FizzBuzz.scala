@@ -1,6 +1,6 @@
 /* Write a program that prints a given range of numbers. But for
 multiples of three print "Fizz" instead of the number and for 
-the multiples of fivve print "Buzz" */
+the multiples of five print "Buzz" */
 object FizzBuzz:
   def div3(i: Int): Boolean = !(i % 3 > 0) // correct: (i % 3) != 0 
 
